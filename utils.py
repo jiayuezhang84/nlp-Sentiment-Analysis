@@ -65,7 +65,6 @@ class Indexer(object):
             self.ints_to_objs[new_idx] = object
         return self.objs_to_ints[object]
 
-
 class Beam(object):
     """
     Beam data structure. Maintains a list of scored elements like a Counter, but only keeps the top n
